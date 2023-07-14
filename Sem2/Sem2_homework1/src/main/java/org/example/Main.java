@@ -7,7 +7,7 @@ public class Main {
     public static Double User_input () {
         Double num = 0.0;
         Scanner input = new Scanner(System.in);
-        System.out.println("Введите десятичную дробь типа 'float': ->");
+        System.out.println("Введите десятичную дробь типа 'Double': ->");
         if (input.hasNextDouble()) {
             num = input.nextDouble();
         } else { User_input(); }
